@@ -1,4 +1,4 @@
-function convertToRoman(num) {
+function romanNumeral(num) {
   	const obj = {
       0:['M',1000], 
       1:['D', 500], 
@@ -27,4 +27,4 @@ function convertToRoman(num) {
 
 
 // do not edit below this line
-module.exports = convertToRoman
+module.exports = romanNumeral
